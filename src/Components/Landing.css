@@ -1,0 +1,13 @@
+.hero-container {
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  padding: 3rem;
+  margin: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ensures content is positioned inside */
+  z-index: 5; /* Makes sure it stays above the background */
+}
